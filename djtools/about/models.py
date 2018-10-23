@@ -8,6 +8,11 @@ class AbstractAbout(models.Model):
 
     class Meta:
         abstract = True
+        verbose_name = "About"
+        verbose_name_plural = "About"
+
+    def __str__(self):
+        return self.title
 
 
 class About(AbstractAbout):
