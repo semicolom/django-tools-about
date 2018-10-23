@@ -17,7 +17,9 @@ setup(
     author='Toni Colom',
     author_email='toni@semicolom.com',
     url='https://github.com/semicolom/django-tools-about',
-    install_requires=[],
+    install_requires=[
+        'pillow',
+    ],
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
