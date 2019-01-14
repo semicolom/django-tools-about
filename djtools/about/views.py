@@ -4,7 +4,7 @@ from .services import get_about
 
 
 class AboutView(TemplateView):
-    template_name = "about/about.html"
+    template_name = "djtools/about/about.html"
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
